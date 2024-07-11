@@ -16,12 +16,12 @@ Maximum likelihood
 Method of moments
 
 Method of Simulation:
-1.Firstly to our dataset, we apply different distribution models.
-2.We find the best fit with KL divergence score.
-3.GAUSSIAN model has given least KL divergence score for majority of the datasets.
-4.For  a single dataset, we find out the best estimator between MLE and MOM using BOX – PLOT.
-5.MLE was found to be a better estimator than MOM for both the parameters (mean and variance).
-5.For all the remaining datasets, we estimate the parameters by using MLE.
+1. Firstly to our dataset, we apply different distribution models.
+2. We find the best fit with the KL divergence score.
+3. The GAUSSIAN model has given the lowest KL divergence score for most datasets.
+4. For  a single dataset, we find out the best estimator between MLE and MOM using BOX–PLOT.
+5. MLE was a better estimator than MOM for both the parameters (mean and variance).
+5. For all the remaining datasets, we estimate the parameters by using MLE.
 
 
 
