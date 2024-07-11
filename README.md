@@ -17,7 +17,7 @@ By capturing data on magnetic field strength and sometimes direction, magnetomet
 1. Maximum likelihood
 2. Method of moments
 
-### Method of Simulation:
+## Method of Simulation:
 1. Firstly to our dataset, we apply different distribution models.
 2. We find the best fit with the KL divergence score.
 3. The GAUSSIAN model has given the lowest KL divergence score for most datasets.
