@@ -4,18 +4,20 @@ Magnetometer data estimation involves analyzing magnetic field measurements coll
 These devices are vital across numerous fields, including geophysics, navigation, and aerospace engineering.
 By capturing data on magnetic field strength and sometimes direction, magnetometers provide insights into Earth's magnetic field behavior.
 
-Models and parameters:
-Gaussian
-Gamma
-Inverse Gamma
-Exponential
-Rayleigh
+## Models and parameters: 
 
-Methods to be implemented for Estimation:
-Maximum likelihood
-Method of moments
+1. Gaussian
+2. Gamma
+3. Inverse Gamma
+4. Exponential
+5. Rayleigh
 
-Method of Simulation:
+## Methods to be implemented for Estimation:
+
+1. Maximum likelihood
+2. Method of moments
+
+### Method of Simulation:
 1. Firstly to our dataset, we apply different distribution models.
 2. We find the best fit with the KL divergence score.
 3. The GAUSSIAN model has given the lowest KL divergence score for most datasets.
